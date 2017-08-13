@@ -1,0 +1,33 @@
+# ============================================
+# 	Bash Initialization File
+# ============================================
+#
+
+# PS1
+export PS1="\u@\h:(\w)[\!]$ "
+
+# Options Setting
+set -o emacs
+set -o noclobber
+
+# Variables Define
+export LESS='-CMs'
+export HISTTIMEFORMAT="%d/%m/%y %T "
+
+#export WINEPREFIX=/home/qibiao/wine-station
+
+#export ANDROID_EMULATOR_FORCE_32BIT="true"
+
+# Alias
+alias recal='fc -s'
+alias del='fc -s ls=rm'
+
+alias ls='ls -F --color=auto'
+alias grep='grep -E --color=auto'
+alias ll='ls -l'
+
+
+
+#
+#
+# End

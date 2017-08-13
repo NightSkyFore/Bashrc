@@ -1,0 +1,12 @@
+Usage: 
+git clone [github_url]
+mv Bashrc/bashrc-file ~/.bashrc
+
+Notes:
+This is an bash initialize file for some default setting in Linux/Unix.
+
+You can add/delete/modify anything for what you want.
+
+Make sure that your .profile had been added the such line: source ~/.bashrc
+
+Created by NightlySky
