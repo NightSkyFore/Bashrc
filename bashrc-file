@@ -4,9 +4,12 @@
 #
 
 # PS1
+## note that '#' for root, and '$' for general users
+#
 export PS1="\u@\h:(\w)[\!]$ "
 
 # Options Setting
+#
 set -o emacs
 set -o noclobber
 
@@ -14,11 +17,17 @@ set -o noclobber
 export LESS='-CMs'
 export HISTTIMEFORMAT="%d/%m/%y %T "
 
-#export WINEPREFIX=/home/qibiao/wine-station
+# Wine Setting
+# 
+#export WINEPREFIX=~/wine-station
 
+# Android Studio and Android eclipse
+# Emulator Setting for x86
+#
 #export ANDROID_EMULATOR_FORCE_32BIT="true"
 
 # Alias
+#
 alias recal='fc -s'
 alias del='fc -s ls=rm'
 
@@ -26,7 +35,10 @@ alias ls='ls -F --color=auto'
 alias grep='grep -E --color=auto'
 alias ll='ls -l'
 
-
+# ssh to remote
+## note that [port], [user] and [ip] set to your remote machine
+#
+alias sshmyhost=`ssh -p [port] [user]@[ip]`
 
 #
 #
